@@ -44,13 +44,14 @@ To use this collection in your own developer tenant, create an Azure AD applicat
 8. On the left menu, click **API Permissions**.
 9. In the horizontal menu, click **Add a permission**, select **Microsoft Graph**, and then select **Delegated Permissions**.
 10. Type `Mail.`, expand the **Mail** options, and check **Mail.Read**.
-11. Click **Application permissions** and type `User.`, and check **Application Permissions**.
-12. Expand the **User** options and check **User.Read.All**.
-13. Click **Add permissions**.
-14. In the horizontal menu, click **Grant admin consent for**, and click **Yes**.
-15. In the left menu, click **Overview**. From here, you can get the **Application (client) ID** and **Directory (tenant) ID**. You will need these in step 4.
-16. In the left menu, click **Certificates & secrets**. 
-17. Click **New client secret**, enter a description, and click **Add**. Hover over the new client secret **Value** and copy it. You will need this in step 4.
+11. In the horizontal menu, click **Add a permission**, select **Microsoft Graph**, and then select **Application permissions**.
+12. Type `User.`, and check **Application Permissions**.
+13. Expand the **User** options and check **User.Read.All**.
+14. Click **Add permissions**.
+15. In the horizontal menu, click **Grant admin consent for**, and click **Yes**.
+16. In the left menu, click **Overview**. From here, you can get the **Application (client) ID** and **Directory (tenant) ID**. You will need these in step 4.
+17. In the left menu, click **Certificates & secrets**. 
+18. Click **New client secret**, enter a description, and click **Add**. Hover over the new client secret **Value** and copy it. You will need this in step 4.
 
 The Azure AD application now has permissions to make requests on behalf of a user to call Mail.Read and as an application for User.Read.All.
 
